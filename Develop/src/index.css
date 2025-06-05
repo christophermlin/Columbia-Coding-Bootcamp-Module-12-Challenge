@@ -1,0 +1,64 @@
+:root {
+  font-family: 'Montserrat', 'Segoe UI', 'Avenir', Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #232323;
+  background-color: #f7f7f7;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #2a4d9b;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #1a2a5a;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  color: #232323;
+  letter-spacing: 0.01em;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #fff;
+  color: #232323;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  cursor: pointer;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+button:hover {
+  border-color: #2a4d9b;
+  box-shadow: 0 4px 16px rgba(42,77,155,0.08);
+}
+button:focus,
+button:focus-visible {
+  outline: 3px solid #2a4d9b;
+}
