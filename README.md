@@ -26,6 +26,8 @@ This project is a single-page React portfolio for Christopher Lin, built with Vi
 3. Start the development server with `npm run dev`.
 4. Build for production with `npm run build`.
 
+- Link to hosted application on Netlify: <https://taupe-sunburst-ac56d1.netlify.app/>
+
 ## File Structure
 - `src/components/` — React components for each section (AboutMe, Portfolio, Contact, Resume, Header, Footer)
 - `src/assets/` — Images and background patterns
