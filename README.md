@@ -20,6 +20,10 @@ This project is a single-page React portfolio for Christopher Lin, built with Vi
 - CSS (custom, with modern layout and responsive design)
 - Assets: Custom images, background patterns, and avatar
 
+## Screenshot
+
+![Portfolio Screenshot](./Develop/src/assets/Screen%20Capture.PNG)
+
 ## Getting Started
 1. Clone the repository.
 2. Install dependencies with `npm install`.
